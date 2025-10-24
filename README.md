@@ -100,7 +100,7 @@ def model_vmarkov(sequences, lengths, hidden_dim=16, is_guide=False):
                         )
 ```
 
-### Our Propsed Vectorisation Approach
+### 3. Our Propsed Vectorisation Approach
 `model_ours` implements our proposed **automatic vectorisation** method, which vectorises the three nested loops automatically.
 It supports vectorisation of nested loops with arbitrary data dependency lengths without requiring a `history` argument.
 This is achieved through speculative vectorisation and fixed-point checking in our algorithm.
