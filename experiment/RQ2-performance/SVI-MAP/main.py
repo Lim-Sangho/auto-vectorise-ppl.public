@@ -6,6 +6,7 @@ import multiprocessing as mp
 path = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(path, "../"))
 sys.path.append(os.path.join(path, "../../"))
+sys.path.append(os.path.join(path, "../../../"))
 sys.dont_write_bytecode = True
 
 import pyro
