@@ -106,9 +106,11 @@ It supports vectorisation of nested loops with arbitrary data dependency lengths
 This is achieved through speculative vectorisation and fixed-point checking in our algorithm.
 
 Our method uses the `@vec.vectorize` decorator and the `vec.range`
-constructor to parallelise loops while preserving their original sequential semantics.
+constructor to parallelise loops while preserving their original structures.
 It also introduces an additional argument `s` (of type `vec.State`) for managing variable reads and writes,
 and an `Index` operator for `NaN`-mask-based indexing.
+By applying the `@vec.vectorize` decorator, the signature of `model_ours` remains the same as the original model,
+because this decorator is configured to ignore the first argument `s`, when the function is called.
 These additions are orthogonal to the model structure and independent of tensor shapes or dimensionality,
 allowing users to avoid manual tensor manipulations.
 
