@@ -4,7 +4,7 @@ This repository contains the source code for reproducing the experiments in the 
 by Sangho Lim, Hyoungjin Lim, [Wonyeol Lee](https://wonyeol.github.io/), [Xavier Rival](https://scholar.google.com/citations?user=YGy_zroAAAAJ&hl=en), and [Hongseok Yang](https://sites.google.com/view/hongseokyang/home).
 
 
-# Dependencies
+## Dependencies
 Our implementation relies heavily on the [Pyro PPL](https://github.com/pyro-ppl/pyro), a deep probabilistic programming library built on top of PyTorch.
 
 All examples and experiments were conducted using **Python 3.8**, **Pyro 1.9.1**, and **PyTorch 2.4.1+cu118**. You can install these dependencies using either pip or a conda environment with the following commands:
@@ -20,7 +20,7 @@ pip install pyro-ppl==1.9.1
 ```
 
 
-# Hidden Markov Model (HMM) Example
+## Hidden Markov Model (HMM) Example
 The following examples demonstrate **Hidden Markov Models (HMM)** implemented in Pyro, desinged to model a piano sequence dataset. This implementation is adapted from the offical [Pyro tutorial](https://pyro.ai/examples/hmm.html). The complete source code for our experiments based on this model is available in [experiment/benchmark/hmm_ord1.py](https://github.com/Lim-Sangho/auto-vectorise-ppl.public/blob/main/experiment/benchmark/hmm_ord1.py).
 
 ### 1. Baseline: Sequential Loops
