@@ -1,6 +1,6 @@
 # Automatic Loop Vectorisation in PPLs
 
-This repository contains the source code for reproducing the experiments in the paper [Optimising Probabilistic Programs for Efficient Probabilistic Inference Through Automatic Loop Vectorisation]()
+This repository contains the source code for reproducing the experiments in the paper [Optimising Density Computations in Probabilistic Programs via Automatic Loop Vectorisation](https://www.arxiv.org/abs/2511.11070)
 by Sangho Lim, Hyoungjin Lim, [Wonyeol Lee](https://wonyeol.github.io/), [Xavier Rival](https://scholar.google.com/citations?user=YGy_zroAAAAJ&hl=en), and [Hongseok Yang](https://sites.google.com/view/hongseokyang/home).
 
 
