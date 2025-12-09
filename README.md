@@ -117,7 +117,7 @@ allowing users to avoid manual tensor manipulations.
 ```python
 import pyro
 import vectorized_loop as vec
-from vectorized_loop.ops import Index, cat
+from vectorized_loop.ops import Index
 
 @vec.vectorize
 def model_ours(s: vec.State, sequences, lengths, hidden_dim=16, is_guide=False):
